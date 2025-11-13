@@ -107,25 +107,29 @@ python interface_BioSalNet.py \
 
 ## 📊 Results and Pre-trained Models
 
-The performance of our model on standard benchmarks is summarized below (as reported in the paper):
-
-| Dataset  | AUC-J↑ | NSS↑ | CC↑ | SIM↑ |
-|----------|--------|------|-----|------|
-| MIT1003  | 0.912  | 2.908 | 0.804 | 0.634 |
-| CAT2000  | 0.886  | 2.465 | 0.901 | 0.760 |
-
 ### Model Weights
 We provide pre-trained model weights for researchers to reproduce our results:
 
 - **BioSalNet Pre-trained Weights**: [Download Link](https://drive.google.com/file/d/1IPQbtiPwQUwZmONw1AXY8EX0GOWkdlrQ/view?usp=drive_link)
   - Trained on SALICON training set
   - Compatible with the code in this repository
+ 
+### Quantitative Results
+We provide detailed performance curves for our model on major benchmarks:
+
+- **SALICON Results**: ![SALICON Performance](figs/SALICON.png)
+- **MIT300 Results**: ![MIT300 Performance](figs/MIT300.png)
+
+### Qualitative Comparisons
+Visual comparison of our model's predictions against ground truth and other methods:
+
+![Qualitative Comparisons](figs/qualitative.png)
 
 ### Prediction Visualizations
 To help visualize the performance of our model, we provide prediction examples on both datasets:
 
 - **SALICON Predictions**: [View Examples](https://drive.google.com/file/d/1nFw1X7ANIi4dXNnNPmtlo9v7IJZv4mPS/view)
-- **MIT1003 Predictions**: [View Examples](https://drive.google.com/your-mit1003-predictions-link)
+- **MIT300 Predictions**: [View Examples](https://drive.google.com/file/d/1Ih0ImW5ZAK94geiUYVcwXdBjqe2pKjSa/view?usp=drive_link)
 
 These visualizations include input images, ground truth saliency maps, and our model's predictions.
 
