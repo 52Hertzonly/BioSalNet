@@ -42,11 +42,6 @@ pip install "numpy<1.24"  # We recommend numpy==1.23.5 or 1.22.4
 pip install mmcv==1.3.8 mmengine==0.10.5 mmsegmentation==0.14.1
 pip install timm==1.0.19
 
-
-
-
-
-
 ## 🛠️ Configuration
 
 The training script `train.py` accepts several important command-line arguments for configuration:
