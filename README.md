@@ -30,7 +30,7 @@ This project implements a novel deep learning model for visual saliency predicti
 ### Our Experiment Environment
 **Note:** Other environments may also work, but the following is the exact setup we used for all experiments, which guarantees reproducibility.
 
-```bash
+
 # Core Deep Learning Framework
 pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
 
