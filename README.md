@@ -42,6 +42,24 @@ pip install "numpy<1.24"  # We recommend numpy==1.23.5 or 1.22.4
 pip install mmcv==1.3.8 mmengine==0.10.5 mmsegmentation==0.14.1
 pip install timm==1.0.19
 ```
+## 📥 Data Acquisition
+
+### SALICON Dataset
+The **SALICON** dataset is available through the official SALICON website. Due to the dynamic nature of online resources, we recommend searching for the most current access point using the dataset's official title: **"SALICON: Saliency in Context"**.
+
+- **Official Reference**: Look for the SALICON dataset on academic data portals or the publisher's website associated with the original paper.
+- **Content**: This dataset provides the `images/` (stimuli) and `maps/` (saliency maps) directories for your saliency prediction task.
+
+### Depth Maps
+The depth maps used in our work are not part of the original SALICON dataset. They were generated using pre-trained monocular depth estimation models.
+
+- **Recommended Tool**: A modern and effective choice is the **Depth Anything** model, which provides a robust and unified solution for monocular depth estimation.
+    - **Source Code & Model**: You can find the official implementation and pre-trained models on its [GitHub repository](https://github.com/DepthAnything/DepthAnything).
+    - **Usage**: You can process the SALICON images through this model to generate the corresponding depth maps for the `depth/` directory.
+
+- **Alternative Options**: Other popular depth estimation models you could consider include **MiDaS** and **DPT** (Dense Prediction Transformer).
+
+
 
 ## 🛠️ Configuration
 
