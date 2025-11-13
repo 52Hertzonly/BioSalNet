@@ -48,12 +48,12 @@ pip install timm==1.0.19
 The training script `train.py` accepts several important command-line arguments for configuration:
 
 ### Dataset Paths
-- `--salicon-root`: Root directory of SALICON dataset (default: `/mnt/home/user/501/yang/dataset/salicon/`)
+- `--salicon-root`: Root directory of SALICON dataset
 - `--train-csv`: Path to CSV file listing training samples (default: `dataset/salicon_train.csv`)
 - `--val-csv`: Path to CSV file listing validation samples (default: `dataset/salicon_val.csv`)
 
 ### Output & Logging
-- `--log-dir`: Directory to save model checkpoints and training logs (default: `outputs/checkpoints1`)
+- `--log-dir`: Directory to save model checkpoints and training logs (default: `outputs/checkpoints`)
 
 ### Usage Example
 
