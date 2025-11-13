@@ -47,7 +47,7 @@ pip install timm==1.0.19
 
 The training script `train.py` accepts several important command-line arguments for configuration:
 ### SALICON Dataset Structure
-
+```bash
 salicon/
 ├── images/
 │   ├── train/          # Training images
@@ -58,6 +58,7 @@ salicon/
 └── maps/
     ├── train/          # Saliency maps for training images
     └── val/            # Saliency maps for validation images
+```
 
 ### Dataset Paths
 - `--salicon-root`: Root directory of SALICON dataset
