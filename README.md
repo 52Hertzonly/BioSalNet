@@ -95,4 +95,29 @@ python train.py \
     --log-dir outputs/my_experiment
 ```
 
+## 📊 Results and Pre-trained Models
+
+The performance of our model on standard benchmarks is summarized below (as reported in the paper):
+
+| Dataset  | AUC-J↑ | NSS↑ | CC↑ | SIM↑ |
+|----------|--------|------|-----|------|
+| MIT1003  | 0.912  | 2.908 | 0.804 | 0.634 |
+| CAT2000  | 0.886  | 2.465 | 0.901 | 0.760 |
+
+### Model Weights
+We provide pre-trained model weights for researchers to reproduce our results:
+
+- **BioSalNet Pre-trained Weights**: [Download Link](https://drive.google.com/your-link-here)
+  - Trained on SALICON training set
+  - Compatible with the code in this repository
+
+### Prediction Visualizations
+To help visualize the performance of our model, we provide prediction examples on both datasets:
+
+- **SALICON Predictions**: [View Examples](https://drive.google.com/your-salicon-predictions-link)
+- **MIT1003 Predictions**: [View Examples](https://drive.google.com/your-mit1003-predictions-link)
+
+These visualizations include input images, ground truth saliency maps, and our model's predictions.
+
+
 ## 📁 Repository Structure
