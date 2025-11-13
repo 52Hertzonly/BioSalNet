@@ -107,7 +107,7 @@ The performance of our model on standard benchmarks is summarized below (as repo
 ### Model Weights
 We provide pre-trained model weights for researchers to reproduce our results:
 
-- **BioSalNet Pre-trained Weights**: [Download Link](https://drive.google.com/your-link-here)
+- **BioSalNet Pre-trained Weights**: [Download Link](https://drive.google.com/file/d/1IPQbtiPwQUwZmONw1AXY8EX0GOWkdlrQ/view?usp=drive_link))
   - Trained on SALICON training set
   - Compatible with the code in this repository
 
