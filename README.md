@@ -118,8 +118,9 @@ We provide pre-trained model weights for researchers to reproduce our results:
 We provide detailed performance curves for our model on major benchmarks:
 
 <p align="center">
-  <img src="figs/SALICON.png" alt="SALICON Performance" width="45%" style="display: inline-block; margin-right: 5%;">
-  <img src="figs/MIT300.png" alt="MIT300 Performance" width="45%" style="display: inline-block;">
+  <img src="figs/SALICON.png" alt="SALICON Performance" width="55%" style="display: inline-block; margin-right: 5%;">
+    
+  <img src="figs/MIT300.png" alt="MIT300 Performance" width="55%" style="display: inline-block;">
 </p>
 
 ### Qualitative Comparisons
