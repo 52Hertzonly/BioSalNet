@@ -63,5 +63,6 @@ python train.py \
     --train-csv path/to/train.csv \
     --val-csv path/to/val.csv \
     --log-dir outputs/my_experiment
+```
 
 ## 📁 Repository Structure
