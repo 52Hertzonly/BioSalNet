@@ -107,14 +107,14 @@ The performance of our model on standard benchmarks is summarized below (as repo
 ### Model Weights
 We provide pre-trained model weights for researchers to reproduce our results:
 
-- **BioSalNet Pre-trained Weights**: [Download Link](https://drive.google.com/file/d/1IPQbtiPwQUwZmONw1AXY8EX0GOWkdlrQ/view?usp=drive_link))
+- **BioSalNet Pre-trained Weights**: [Download Link]([https://drive.google.com/file/d/1IPQbtiPwQUwZmONw1AXY8EX0GOWkdlrQ/view?usp=drive_link])
   - Trained on SALICON training set
   - Compatible with the code in this repository
 
 ### Prediction Visualizations
 To help visualize the performance of our model, we provide prediction examples on both datasets:
 
-- **SALICON Predictions**: [View Examples](https://drive.google.com/your-salicon-predictions-link)
+- **SALICON Predictions**: [View Examples](https://drive.google.com/file/d/1nFw1X7ANIi4dXNnNPmtlo9v7IJZv4mPS/view)
 - **MIT1003 Predictions**: [View Examples](https://drive.google.com/your-mit1003-predictions-link)
 
 These visualizations include input images, ground truth saliency maps, and our model's predictions.
