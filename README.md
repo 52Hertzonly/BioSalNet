@@ -55,7 +55,7 @@ The depth maps used in our work are not part of the original SALICON dataset. Th
 
 ## 🛠️ Configuration
 
-The training script `train.py` accepts several important command-line arguments for configuration:
+The training script `train_BioSalNet.py` accepts several important command-line arguments for configuration:
 ### SALICON Dataset Structure
 ```bash
 salicon/
@@ -81,11 +81,28 @@ salicon/
 ### Usage Example
 
 ```bash
-python train.py \
+python train_BioSalNet.py \
     --salicon-root /path/to/your/salicon/dataset \
     --train-csv path/to/train.csv \
     --val-csv path/to/val.csv \
     --log-dir outputs/my_experiment
+```
+
+We provide an easy-to-use interface `interface_BioSalNet.py` for running predictions with our pre-trained model.
+### Arguments
+- `--images`: Path to directory containing input images (default: samples/images)
+- `--depth`: Path to directory containing depth maps (default: samples/depth)
+- `--outpath`: Path to directory where predictions will be saved (default: outputs/predictions)
+-  `--weights`:Path to pre-trained model weights file (default: None - will use built-in weights if available)
+
+### Usage Example
+
+```bash
+python interface_BioSalNet.py \
+    --images samples/test_images \
+    --depth samples/test_depth \
+    --outpath outputs/my_predictions \
+    --weights downloads/biosalnet_weights.pth
 ```
 
 ## 📊 Results and Pre-trained Models
