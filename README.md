@@ -27,20 +27,20 @@ This project implements a novel deep learning model for visual saliency predicti
 
 ## ⚙️ Installation
 
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/52Hertzonly/BioSalNet.git
-    cd BioSalNet
-    ```
+### Our Experiment Environment
+**Note:** Other environments may also work, but the following is the exact setup we used for all experiments, which guarantees reproducibility.
 
-2.  Install the required dependencies. We recommend using a virtual environment.
-    ```bash
-    # Using pip
-    pip install -r requirements.txt
+```bash
+# Core Deep Learning Framework
+pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
 
-    # Or using Conda (if you have a conda_env.yml file)
-    # conda env create -f conda_env.yml
-    # conda activate biosalnet
+# Essential Libraries
+pip install transformers==4.35.2
+pip install "numpy<1.24"  # We recommend numpy==1.23.5 or 1.22.4
+
+# Computer Vision Libraries
+pip install mmcv==1.3.8 mmengine==0.10.5 mmsegmentation==0.14.1
+pip install timm==1.0.19
     ```
 
 ## 📁 Repository Structure
