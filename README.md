@@ -43,4 +43,25 @@ pip install mmcv==1.3.8 mmengine==0.10.5 mmsegmentation==0.14.1
 pip install timm==1.0.19
 
 
+## 🛠️ Configuration
+
+The training script `train.py` accepts several important command-line arguments for configuration:
+
+### Dataset Paths
+- `--salicon-root`: Root directory of SALICON dataset (default: `/mnt/home/user/501/yang/dataset/salicon/`)
+- `--train-csv`: Path to CSV file listing training samples (default: `dataset/salicon_train.csv`)
+- `--val-csv`: Path to CSV file listing validation samples (default: `dataset/salicon_val.csv`)
+
+### Output & Logging
+- `--log-dir`: Directory to save model checkpoints and training logs (default: `outputs/checkpoints1`)
+
+### Usage Example
+
+```bash
+python train.py \
+    --salicon-root /path/to/your/salicon/dataset \
+    --train-csv path/to/train.csv \
+    --val-csv path/to/val.csv \
+    --log-dir outputs/my_experiment
+
 ## 📁 Repository Structure
