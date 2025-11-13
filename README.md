@@ -1,4 +1,4 @@
-# oSalNet: Biologically Inspired Saliency Prediction
+# BioSalNet: Biologically Inspired Saliency Prediction
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
