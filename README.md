@@ -1,4 +1,4 @@
-# BioSalNet: Biologically Inspired Saliency Prediction
+# oSalNet: Biologically Inspired Saliency Prediction
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,11 +12,11 @@ This project implements a novel deep learning model for visual saliency predicti
 
 ## 🚀 Features
 
-*   **Full Training & Evaluation Pipeline**: Complete code for training and testing saliency prediction models.
+*   **Complete Training & Evaluation Pipeline**:We provide the complete code for training and testing saliency prediction models, except for the core model which will be released upon acceptance.
 *   **Multi-Dataset Support**: Data loaders and pre-processing scripts for popular saliency benchmarks (e.g., SALICON, MIT1003, CAT2000).
-*   **Comprehensive Evaluation Metrics**: Implementation of standard saliency metrics (AUC-Judd, NSS, CC, SIM, KL-Divergence, etc.).
+*   **Comprehensive Evaluation Metrics**: Implementation of standard saliency metrics ( NSS, CC, SIM, KL-Divergence, etc.).
 *   **Modular Design**: Easy-to-extend code structure for integrating new models and datasets.
-*   **Reproducible Results**: Scripts to replicate the experiments and comparisons reported in our paper.
+
 
 ## ⚙️ Installation
 
