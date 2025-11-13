@@ -117,13 +117,17 @@ We provide pre-trained model weights for researchers to reproduce our results:
 ### Quantitative Results
 We provide detailed performance curves for our model on major benchmarks:
 
-- **SALICON Results**: ![SALICON Performance](figs/SALICON.png)
-- **MIT300 Results**: ![MIT300 Performance](figs/MIT300.png)
+<p align="center">
+  <img src="figs/SALICON.png" alt="SALICON Performance" width="45%" style="display: inline-block; margin-right: 5%;">
+  <img src="figs/MIT300.png" alt="MIT300 Performance" width="45%" style="display: inline-block;">
+</p>
 
 ### Qualitative Comparisons
 Visual comparison of our model's predictions against ground truth and other methods:
 
-![Qualitative Comparisons](figs/qualitative.png)
+<p align="center">
+  <img src="figs/qualitative.png" alt="Qualitative Comparisons" width="80%">
+</p>
 
 ### Prediction Visualizations
 To help visualize the performance of our model, we provide prediction examples on both datasets:
