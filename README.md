@@ -54,7 +54,7 @@ The **SALICON** dataset is available through the official SALICON website. Due t
 The depth maps used in our work are not part of the original SALICON dataset. They were generated using pre-trained monocular depth estimation models.
 
 - **Recommended Tool**: A modern and effective choice is the **Depth Anything2** model, which provides a robust and unified solution for monocular depth estimation.
-    - **Source Code & Model**: You can find the official implementation and pre-trained models on its [GitHub repository](https://github.com/DepthAnything/DepthAnything).
+    - **Source Code & Model**: You can find the official implementation and pre-trained models on its [GitHub repository](https://github.com/DepthAnything/Depth-Anything-V2).
     - **Usage**: You can process the SALICON images through this model to generate the corresponding depth maps for the `depth/` directory.
 
 
