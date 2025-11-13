@@ -138,5 +138,12 @@ To help visualize the performance of our model, we provide prediction examples o
 
 These visualizations include input images, ground truth saliency maps, and our model's predictions.
 
+## 🤝 Acknowledgements
 
-## 📁 Repository Structure
+We thank the contributors of the following libraries and datasets that made this work possible:
+
+- [SALICON](https://salicon.net/challenge-2017/)
+- [MIT300 & MIT1003](https://saliency.tuebingen.ai/)
+- [CAT2000](https://people.csail.mit.edu/tjudd/WherePeopleLook/index.html)
+- [TORONTO](http://www-sop.inria.fr/members/Neil.Bruce/)
+- [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) for depth estimation
