@@ -13,7 +13,7 @@ This project implements a novel deep learning model for visual saliency predicti
 ## 🚀 Features
 
 *   **Complete Training & Evaluation Pipeline**:Full code for training and testing saliency prediction models, including the complete model architecture.
-*   **Multi-Dataset Support**: Data loaders and pre-processing scripts for popular saliency benchmarks (e.g., SALICON, MIT1003, CAT2000).
+*   **Multi-Dataset Support**: Data loaders and pre-processing scripts for popular saliency benchmarks.
 *   **Comprehensive Evaluation Metrics**: Implementation of standard saliency metrics ( NSS, CC, SIM, KL-Divergence, etc.).
 *   **Modular Design**: Easy-to-extend code structure for integrating new models and datasets.
 
