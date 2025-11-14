@@ -25,15 +25,19 @@ This project implements a novel deep learning model for visual saliency predicti
 
 ```bash
 # Core Deep Learning Framework
-pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
-
-# Essential Libraries
-pip install transformers==4.35.2
-pip install "numpy<1.24"  # We recommend numpy==1.23.5 or 1.22.4
-
-# Computer Vision Libraries
-pip install mmcv==1.3.8 mmengine==0.10.5 mmsegmentation==0.14.1
-pip install timm==1.0.19
+torch==2.1.1+cu118
+torchvision==0.16.1+cu118
+transformers==4.35.2
+timm==1.0.19
+mmcv==1.3.8
+mmsegmentation==0.14.1
+opencv-python==4.8.1.78
+numpy==1.26.4
+matplotlib==3.8.2
+scikit-image==0.25.2
+scipy==1.11.4
+pandas==2.1.3
+Pillow==10.1.0
 ```
 ## 📥 Data Acquisition
 
