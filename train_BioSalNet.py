@@ -25,10 +25,10 @@ def seed_everything(seed: int = 2022):
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="BioSalNet training and evaluation")
-    parser.add_argument("--salicon-root", type=str, default="/mnt/home/user/501/yang/dataset/salicon/", help="Root directory of SALICON dataset")
+    parser.add_argument("--salicon-root", type=str, default="/dataset/salicon/", help="Root directory of SALICON dataset")
     parser.add_argument("--train-csv", type=str, default="dataset/salicon_train.csv", help="CSV listing training samples")
     parser.add_argument("--val-csv", type=str, default="dataset/salicon_val.csv", help="CSV listing validation samples")
-    parser.add_argument("--log-dir", type=str, default="outputs/checkpoints1", help="Directory to save checkpoints")
+    parser.add_argument("--log-dir", type=str, default="outputs/checkpoints", help="Directory to save checkpoints")
     parser.add_argument("--resolution", type=int, nargs=2, default=(352, 352), metavar=("HEIGHT", "WIDTH"),
                         help="Input resolution for images/maps")
     parser.add_argument("--batch-size", type=int, default=8, help="Batch size for training/validation")
@@ -212,7 +212,7 @@ def main(args=None):
             model, val_loader, device=device, epoch=epoch, num_steps_per_epoch=num_testing_steps_per_epoch
         )
 
-        if val_cc > 0.700:
+        if val_cc > 0.910:
             torch.save(
                 model.state_dict(),
                 os.path.join(args.log_dir, "ep{}_cc{:.6f}_kl{:.6f}_sim{:.6f}.pt".format(epoch, val_cc, val_kl, val_sim))
@@ -220,5 +220,5 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    # seed_everything()
+    seed_everything()
     main()
