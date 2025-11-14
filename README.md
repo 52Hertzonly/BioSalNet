@@ -119,7 +119,7 @@ We provide pre-trained model weights for researchers to reproduce our results:
   - Compatible with the code in this repository
  
 ### Quantitative Results
-We provide detailed performance curves for our model on major benchmarks:
+We provide comprehensive quantitative comparisons of our model against state-of-the-art methods on major benchmarks:
 
 <p align="center">
   <img src="figs/SALICON.png" alt="SALICON Performance" width="55%" style="display: inline-block; margin-right: 5%;">
