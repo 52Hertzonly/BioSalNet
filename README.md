@@ -4,7 +4,7 @@
 
 This repository contains the official **implementation code and resources** for the paper **"BioSalNet: Biologically Inspired Saliency Prediction"** (currently under review).
 
-> **Note on Code Availability**: To facilitate research reproducibility and peer review, we are providing the complete training and evaluation framework, including data loaders, and metric calculations. **The core proprietary module of the BioSalNet architecture is not included in this public release** but will be made available upon publication of the paper.
+> **Note on Code Availability**: To facilitate research reproducibility and peer review, we are providing the complete implementation of BioSalNet, including the full model architecture, training framework, data loaders, and evaluation metrics. The code is now fully open-source and available for academic use.
 
 ## 📖 Overview
 
@@ -12,7 +12,7 @@ This project implements a novel deep learning model for visual saliency predicti
 
 ## 🚀 Features
 
-*   **Complete Training & Evaluation Pipeline**:We provide the complete code for training and testing saliency prediction models, except for the core model which will be released upon acceptance.
+*   **Complete Training & Evaluation Pipeline**:Full code for training and testing saliency prediction models, including the complete model architecture.
 *   **Multi-Dataset Support**: Data loaders and pre-processing scripts for popular saliency benchmarks (e.g., SALICON, MIT1003, CAT2000).
 *   **Comprehensive Evaluation Metrics**: Implementation of standard saliency metrics ( NSS, CC, SIM, KL-Divergence, etc.).
 *   **Modular Design**: Easy-to-extend code structure for integrating new models and datasets.
