@@ -1,10 +1,24 @@
 # BioSalNet: Biologically Inspired Saliency Prediction
 
+[![Journal](https://img.shields.io/badge/Journal-Expert%20Systems%20with%20Applications-blue)](https://www.sciencedirect.com/science/article/pii/S0957417425043726)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the official **implementation code and resources** for the paper **"BioSalNet: Biologically Inspired Saliency Prediction"** (currently under review).
 
 > **Note on Code Availability**: To facilitate research reproducibility and peer review, we are providing the complete implementation of BioSalNet, including the full model architecture, training framework, data loaders, and evaluation metrics. The code is now fully open-source and available for academic use.
+
+## 📄 Publication
+
+**Fazhan Yang**, **Jiansheng Qian**, **Xingge Guo**, **Song Liang**  
+**BioSalNet: Biologically inspired saliency prediction**  
+*Expert Systems with Applications*, Volume 304, 2026, 130757  
+ISSN: 0957-4174  
+
+🔗 **DOI**: https://doi.org/10.1016/j.eswa.2025.130757  
+🔗 **ScienceDirect**: https://www.sciencedirect.com/science/article/pii/S0957417425043726  
+
+---
+
 
 ## 📖 Overview
 
@@ -151,3 +165,16 @@ We thank the contributors of the following libraries and datasets that made this
 - [CAT2000](https://people.csail.mit.edu/tjudd/WherePeopleLook/index.html)
 - [TORONTO](http://www-sop.inria.fr/members/Neil.Bruce/)
 - [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) for depth estimation
+
+## 📌 Citation
+
+If you find this work useful in your research, please cite:
+
+```bibtex
+@article{yang2026biosalnet,
+  title   = {BioSalNet: Biologically inspired saliency prediction},
+  author  = {Yang, Fazhan and Qian, Jiansheng and Guo, Xingge and Liang, Song},
+  journal = {Expert Systems with Applications},
+  year    = {2026},
+  doi     = {10.1016/j.eswa.2025.130757}
+}
